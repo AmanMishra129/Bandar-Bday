@@ -1,0 +1,113 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Birthday Riya</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: url('https://images.unsplash.com/photo-1589829545856-d10d557cf95c?auto=format&fit=crop&w=1950&q=80') no-repeat center center fixed;
+      background-size: cover;
+      color: white;
+      overflow-x: hidden;
+    }
+    .container {
+      text-align: center;
+      padding: 3rem 2rem;
+      background-color: rgba(0,0,0,0.5);
+    }
+    h1 {
+      font-size: 3rem;
+      margin-bottom: 0.5rem;
+    }
+    .message {
+      font-size: 1.25rem;
+      margin-bottom: 2rem;
+    }
+    .scrolling-text {
+      white-space: nowrap;
+      overflow: hidden;
+      box-sizing: border-box;
+    }
+    .scrolling-text p {
+      display: inline-block;
+      padding-left: 100%;
+      animation: scroll-left 20s linear infinite;
+    }
+    @keyframes scroll-left {
+      0% { transform: translateX(0); }
+      100% { transform: translateX(-100%); }
+    }
+    .surprise-button {
+      background: #ff4081;
+      color: white;
+      padding: 1rem 2rem;
+      font-size: 1.2rem;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      margin: 2rem 0;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 15px;
+      padding: 2rem;
+      background-color: rgba(0,0,0,0.3);
+    }
+    .gallery img, .gallery video {
+      width: 100%;
+      border-radius: 10px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>🎉 Happy Birthday Riya 🎉</h1>
+    <p class="message">
+      A very Happy Birthday to You Bandar.... After so many years finally I've got a chance to celebrate your Birthday with you<br>
+      and I'll try my best to make this day very special for you.<br>
+      So here is my first present for you...........
+    </p>
+    <div class="scrolling-text">
+      <p>
+        I am super grateful to God that you are a part of my life. And how lucky I am to get a caring sister, best friend, and my favourite human in one person.
+        It's overwhelming and I'll keep doing my best to cherish this beautiful bond we share. Your presence means EVERYTHING to me.
+        You are the only person in my life jiske saath m har chiz share kr skta hun aur krta bhi hun...
+      </p>
+    </div>
+    <button class="surprise-button" onclick="document.getElementById('slideshow').scrollIntoView({behavior: 'smooth'})">
+      🎁 Click for Surprise 🎁
+    </button>
+  </div>
+
+  <div id="slideshow" class="gallery">
+    <!-- Slideshow images/videos -->
+    <img src="img1.jpg" />
+    <img src="img2.jpg" />
+    <img src="img3.jpg" />
+    <img src="img4.jpg" />
+    <img src="img5.jpg" />
+    <img src="img6.jpg" />
+    <img src="img7.jpg" />
+    <img src="img8.jpg" />
+    <img src="img9.jpg" />
+    <img src="img10.jpg" />
+    <img src="img11.jpg" />
+    <img src="img12.jpg" />
+    <img src="img13.jpg" />
+    <img src="img14.jpg" />
+    <img src="img15.jpg" />
+    <img src="img16.jpg" />
+    <img src="img17.jpg" />
+    <img src="img18.jpg" />
+    <img src="img19.jpg" />
+    <img src="img20.jpg" />
+    <video controls><source src="vid1.mp4" type="video/mp4" /></video>
+    <video controls><source src="vid2.mp4" type="video/mp4" /></video>
+  </div>
+</body>
+</html>
